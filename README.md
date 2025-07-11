@@ -10,16 +10,13 @@ This is a static MVP built with **vanilla JavaScript** — no APIs, no AI, no ba
 
 - 🎯 Select your meal goal (Healthy, Bulking, Budget)
 - 🔁 Click a button to generate a new random daily meal plan
-- 📄 Meals are shown clearly on the page (not just in the console)
 - 🔄 Regenerates fresh meals every time the button is clicked
 
 ---
 
 ## 📸 Demo
 
-![App Screenshot](screenshot.png)  
-*(Add a screenshot after you deploy it)*
-
+!SOON
 ---
 
 ## 🛠️ Tech Used
