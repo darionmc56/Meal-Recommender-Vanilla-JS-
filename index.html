@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Meal Recommender</title>
   </head>
   <body>
@@ -10,22 +11,20 @@
       <h1>Meal Recommender</h1>
     </header>
     <main>
-      <section class="goal-selector">
-        <label for="goal">Choose a goal</label>
-        <select id="goal">
-          <option value="Healthy">Healthy</option>
-          <option value="Bulking">Bulking</option>
-          <option value="Budget">Budget</option>
-        </select>
+      <section class="container">
+        <div class="goal-selector">
+          <label for="goal">Choose a goal</label>
+          <select id="goal">
+            <option value="Healthy">Healthy</option>
+            <option value="Bulking">Bulking</option>
+            <option value="Budget">Budget</option>
+          </select>
+        </div>
         <div class="generate-btn-container">
-          <button class="generate-btn">
-            Generate Button
-          </button>
+          <button class="generate-btn">Generate Button</button>
         </div>
       </section>
-      <section class="meal-plan-viewer">
-     
-      </section>
+      <section class="meal-plan-viewer"></section>
     </main>
     <script src="script.js"></script>
   </body>
