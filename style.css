@@ -3,3 +3,44 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+  color: transparent;
+  padding: 4rem;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(52, 97, 120, 1) 0%,
+    rgba(70, 189, 119, 1) 82%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  background-clip: text;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(52, 97, 120, 1) 0%,
+    rgba(70, 189, 119, 1) 82%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+
+.container .goal-selector {
+  height: 8rem;
+  width: 21rem;
+  background-color: aliceblue;
+  padding: 2rem;
+}
+
+.container .goal-selector .goal {
+  display: block;
+  font-size: 1.5rem;
+}
+
